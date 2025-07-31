@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url('https://www.artst.org/wp-content/uploads/2023/05/Museum-vs-Gallery.jpg') no-repeat center center/cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+header {
+  background: #000;
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo {
+
+  color: #f07c00;
+
+  font-size: 24px;
+float: left;
+  font-weight: lighter;
+
+}
+
+
+
+.logo span {
+
+  color: white;
+
+    font-weight: bold;
+
+}
+
+.nav-links {
+  list-style: none;
+  float: right;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 12px;
+    font-weight:lighter;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+  padding: 100px 0;
+  color: white;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* التعتيم */
+  z-index: 1;
+}
+
+.left {
+  width: 58%;
+  float: left;
+}
+
+.right {
+  width: 38%;
+  float: right;
+}
+
+.left h1 {
+  font-size: 50px;
+  font-weight:lighter;
+  color: #f07c00;
+}
+
+.left h1 span {
+  color: white;
+  font-weight:bold;
+}
+
+.left h2 {
+    color: rgba(255, 255, 255, 0.89);
+  font-size: 24px;
+  margin: 5px 0px 15px 0px;
+  font-weight:lighter;
+}
+hr{
+width: 9%;
+margin: 20px 0px 20px 0px;
+}
+.left p {
+  font-weight:lighter;
+  font-size: 11px;
+  line-height: 1.6;
+  max-width: 330px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.642);
+}
+
+.download-btn {
+  padding: 8px 17px;
+  border: 2px solid white;
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.form-box {
+  background: white;
+  border-radius: 0;
+  color: #333;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+  width: 80%;
+}
+
+.form-box h3 {
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.form-box h3 span {
+  color: #f07c00;
+}
+
+.form-box form {
+  
+  margin: 0;
+  padding-bottom: 0;
+}
+.form-body{
+padding: 15px;
+}
+.form-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #8a8a8a45;
+  outline: none;
+  font-size: 14px;
+  color: #000000;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.form-box button {
+  width: 100%;
+  background: #f07c00;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  border-radius: 0;
+
+}
